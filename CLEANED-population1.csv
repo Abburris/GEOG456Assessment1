@@ -1,6 +1,5 @@
 GEO.id,Geography,total population
 1,Alabama,4850771
-2,Alaska,738565
 4,Arizona,6809946
 5,Arkansas,2977944
 6,California,38982847
@@ -10,7 +9,6 @@ GEO.id,Geography,total population
 11,District of Columbia,672391
 12,Florida,20278447
 13,Georgia,10201635
-15,Hawaii,1421658
 16,Idaho,1657375
 17,Illinois,12854526
 18,Indiana,6614418
@@ -50,4 +48,3 @@ GEO.id,Geography,total population
 54,West Virginia,1836843
 55,Wisconsin,5763217
 56,Wyoming,583200
-72,Puerto Rico,3468963
