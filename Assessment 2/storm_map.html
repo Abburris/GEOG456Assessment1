@@ -18,11 +18,11 @@
     </style>
 </head>
 <body>
-    <h1><a href="https://en.wikipedia.org/wiki/Hurricane_Ana">Storm path of Hurricane Ana</h1>
+    <h1><a href="https://en.wikipedia.org/wiki/Tropical_Storm_Ana_(2015)">Path of Storm Ana</h1>
     <div id="map"></div>
     <script src="./data/storm.js"></script>
     <script>
-        var landMarker = [19.581787349804383, -155.46924591064456];
+        var landMarker = [35.31736632923788, -75.85235595703126];
     
         var layerControl = L.control.layers();
 
@@ -36,15 +36,15 @@
 	        maxZoom: 19
         });
         var map = L.map('map', {
-            center: landMarker,
+            center: [34.74161249883172, -64.40185546875001],
             zoom: 4,
             layers: [OSM, Esri_OceanBasemap]
         });
 
-        /*var points = L.geoJSON(storms, {
+        var points = L.geoJSON(storm, {
             pointToLayer: function (feature, latlng) {
                 return L.circleMarker(latlng, geojsonMarkerOptions);
-            } }).addTo(map);*/
+            } }).addTo(map);
 
         var geojsonMarkerOptions = {
             radius: 20,
@@ -69,6 +69,7 @@
     
     <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ana_Oct_17_2014_2325Z.jpg/440px-Ana_Oct_17_2014_2325Z.jpg">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ana_Oct_17_2014_2325Z.jpg/440px-Ana_Oct_17_2014_2325Z.jpg">
+    
 
 </body>       
 </html>
